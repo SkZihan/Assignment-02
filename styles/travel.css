@@ -9,7 +9,7 @@ body {
 }
 
 header,
-.banner {
+main {
     margin: 0 100px;
 }
 
@@ -78,17 +78,44 @@ header,
 }
 
 .banner-input input {
-    margin: 12px 8px;
-    padding: 12px;
+    margin-right: 14px;
+    padding: 12px 10px;
     border-radius: 7px;
     border: none;
 }
 
 .primary-button {
     color: white;
+    font-weight: 800;
     background-color: rgba(255, 97, 23, 0.986);
-    margin: 10px 8px;
-    padding: 12px 35px;
+    margin: 10px 0px;
+    padding: 10px 35px;
     border-radius: 7px;
     border: none;
+}
+
+/* Popular Tours Section */
+.tours {
+    display: flex;
+    margin: 80px 0;
+}
+
+.tours-discription {
+    margin-right: 60px;
+}
+
+.tours-discription h1 {
+    font-size: 30px;
+}
+
+.tours-discription p {
+    font-size: 15px;
+    color: grey;
+    margin: 25px 0px;
+}
+
+.tours-discription ul>li {
+    font-size: 15px;
+    color: grey;
+    margin: 20px 25px;
 }
