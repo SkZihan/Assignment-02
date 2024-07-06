@@ -1,0 +1,50 @@
+/* Common Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* Heading section */
+header {
+    margin: 0 150px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.heading h2 {
+    font-size: 30px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+    font-weight: 600;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
