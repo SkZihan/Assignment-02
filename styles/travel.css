@@ -144,20 +144,111 @@ main {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 
 .row>div {
     position: relative;
-    color: white;
 }
 
 .row h3 {
     position: absolute;
+    color: white;
     top: 50%;
     left: 40%;
 }
+
+/* Why-us Section */
+
+.why-us {
+    margin: 80px 0;
+}
+
+.why-us-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.why-us-title h1 {
+    font-size: 30px;
+}
+
+.why-us-title p {
+    font-size: 15px;
+    color: grey;
+    margin: 20px 0px;
+}
+
+.facility-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.facilities {
+    background-color: rgba(253, 220, 143, 0.11);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.facilities h4 {
+    font-size: 1.3rem;
+    margin: 10px 0px;
+}
+
+.facilities p {
+    font-size: 15px;
+    color: grey;
+    margin: 20px 0px;
+}
+
+.f2 {
+    background-color: rgba(197, 212, 231, 0.158);
+}
+
+
+.f3 {
+    grid-column: span 2;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Deal Section */
+.deal {
+    margin: 80px 0;
+}
+
+.deal-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.deal-title h1 {
+    font-size: 30px;
+}
+
+.deal-title p {
+    font-size: 15px;
+    color: grey;
+    margin: 20px 0px;
+}
+
+.deal-container {
+    background-color: rgba(255, 252, 252, 0.89);
+    margin: 0px 40px 0px 600px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#deal1 {
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
 
 
 
@@ -214,5 +305,18 @@ main {
     .row img {
         width: 100%;
         height: 200px;
+    }
+
+    .why-us {
+        margin: 30px 0;
+    }
+
+    .facility-container {
+        grid-template-columns: 1fr;
+    }
+
+    .f3 {
+        grid-column: span 1;
+        width: 90%;
     }
 }
