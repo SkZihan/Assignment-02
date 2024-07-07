@@ -32,7 +32,7 @@ main {
 }
 
 .heading h2 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .navigation {
@@ -56,24 +56,26 @@ main {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     border-radius: 10px;
-    padding: 100px 130px;
+    padding: 100px 180px;
     text-align: center;
 }
 
 .banner-title {
-    font-size: 70px;
+    font-size: 4rem;
     color: white;
 }
 
 .banner-discription {
     color: white;
-    margin: 20px 80px;
+    font-size: 1rem;
+    margin: 20px 0px;
 }
 
 .banner-input {
     background-color: rgba(228, 228, 228, 0.418);
-    margin: 50px 50px 0px;
+    margin: 50px 0px;
     border-radius: 7px;
 }
 
@@ -97,12 +99,13 @@ main {
 /* Popular Tours Section */
 .tours {
     display: flex;
+    gap: 60px;
     margin: 80px 0;
 }
 
-.tours-discription {
+/* .tours-discription {
     margin-right: 60px;
-}
+} */
 
 .tours-discription h1 {
     font-size: 30px;
@@ -118,4 +121,52 @@ main {
     font-size: 15px;
     color: grey;
     margin: 20px 25px;
+}
+
+
+
+
+/* Responsive Section */
+@media screen and (max-width:660px) {
+
+    header,
+    main {
+        margin: 0 20px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .banner {
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .banner-input {
+        margin: 30px 10px;
+        padding: 5px 15px;
+    }
+
+    .banner-input input,
+    button {
+        margin-top: 10px;
+        width: 270px;
+    }
+
+
+
+    .tours {
+        flex-direction: column;
+        margin: 30px 0px;
+        gap: 30px;
+    }
+
+    .tour-image img {
+        width: 100%;
+    }
 }
