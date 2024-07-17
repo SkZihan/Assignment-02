@@ -41,13 +41,18 @@ main {
 
 .navigation li {
     list-style: none;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .navigation li a {
     text-decoration: none;
-    color: black;
+    color: gray;
     padding-left: 40px;
+}
+
+.colored-nav {
+    color: orangered;
+    font-weight: 500;
 }
 
 /* Body section */
@@ -67,7 +72,7 @@ main {
     color: white;
 }
 
-.banner-discription {
+.banner-description {
     color: white;
     font-size: 1rem;
     margin: 20px 0px;
@@ -90,7 +95,7 @@ main {
 .book-now-button {
     color: white;
     font-weight: 800;
-    background-color: rgba(255, 97, 23, 0.986);
+    background-color: orangered;
     margin: 10px 0px;
     padding: 10px 35px;
     border-radius: 7px;
@@ -108,21 +113,21 @@ main {
     margin: 80px 0;
 }
 
-/* .tours-discription {
+/* .tours-description {
     margin-right: 60px;
 } */
 
-.tours-discription h1 {
+.tours-description h1 {
     font-size: 30px;
 }
 
-.tours-discription p {
+.tours-description p {
     font-size: 15px;
     color: grey;
     margin: 25px 0px;
 }
 
-.tours-discription ul>li {
+.tours-description ul>li {
     font-size: 15px;
     color: grey;
     margin: 20px 25px;
@@ -241,7 +246,7 @@ main {
     background-size: cover;
     border-radius: 10px;
     padding: 40px 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #deal2 {
@@ -250,7 +255,7 @@ main {
     background-size: cover;
     border-radius: 10px;
     padding: 40px 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -296,6 +301,32 @@ main {
     font-weight: 900;
 }
 
+.package-button {
+    text-align: center;
+    margin: 30px;
+}
+
+/* Promotion Section */
+.promotion {
+    display: flex;
+    gap: 60px;
+    margin: 80px 0;
+}
+
+.promotion-description h1 {
+    font-size: 30px;
+}
+
+.promotion-description p {
+    font-size: 15px;
+    color: grey;
+    margin: 25px 0px;
+}
+
+.promotion-description ul>li {
+    font-size: 15px;
+    margin: 20px 25px;
+}
 
 
 
@@ -324,12 +355,18 @@ main {
     .banner-input {
         margin: 30px 10px;
         padding: 5px 15px;
+        /* width: 90%; */
     }
 
-    .banner-input input,
-    button {
-        margin-top: 10px;
-        width: 270px;
+    .banner-input input {
+        /* padding: 8px 10px; */
+        width: 92%;
+        margin-top: 15px;
+    }
+
+    .banner-input button {
+        margin-top: 15px;
+        width: 100%;
     }
 
 
@@ -337,7 +374,7 @@ main {
     .tours {
         flex-direction: column;
         margin: 30px 0px;
-        gap: 30px;
+        gap: 20px;
     }
 
     .tour-image img {
@@ -374,6 +411,16 @@ main {
     .book-now-button {
         width: 70%;
         padding: 10px;
+    }
+
+    .promotion {
+        flex-direction: column;
+        margin: 30px 0px;
+        gap: 20px;
+    }
+
+    .promotion-image img {
+        width: 100%;
     }
 
 }
