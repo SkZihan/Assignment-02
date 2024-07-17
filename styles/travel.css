@@ -86,7 +86,8 @@ main {
     border: none;
 }
 
-.primary-button {
+.primary-button,
+.book-now-button {
     color: white;
     font-weight: 800;
     background-color: rgba(255, 97, 23, 0.986);
@@ -94,6 +95,10 @@ main {
     padding: 10px 35px;
     border-radius: 7px;
     border: none;
+}
+
+.primary-text {
+    color: orangered;
 }
 
 /* Popular Tours Section */
@@ -186,7 +191,7 @@ main {
 }
 
 .facilities {
-    background-color: rgba(253, 220, 143, 0.11);
+    background-color: rgba(228, 195, 145, 0.26);
     border-radius: 10px;
     padding: 30px 20px;
 }
@@ -203,7 +208,7 @@ main {
 }
 
 .f2 {
-    background-color: rgba(197, 212, 231, 0.158);
+    background-color: rgba(200, 216, 238, 0.356);
 }
 
 
@@ -214,9 +219,6 @@ main {
 }
 
 /* Deal Section */
-.deal {
-    margin: 80px 0;
-}
 
 .deal-title {
     text-align: center;
@@ -233,6 +235,34 @@ main {
     margin: 20px 0px;
 }
 
+#deal1 {
+    background-image: url(../Images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+#deal2 {
+    background-image: url(../Images/Group\ 40.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+
+#deal3 {
+    background-image: url(../Images/Group\ 39.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 40px 0;
+}
+
+
 .deal-container {
     background-color: rgba(255, 252, 252, 0.89);
     margin: 0px 40px 0px 600px;
@@ -240,15 +270,31 @@ main {
     border-radius: 10px;
 }
 
-#deal1 {
-    background-image: url(../Images/Group\ 39.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    padding: 40px 0;
+.left-align {
+    margin: 0px 600px 0px 40px;
 }
 
+
+.deal-info {
+    display: flex;
+    gap: 40px;
+}
+
+.deal-container p {
+    font-size: 15px;
+    color: grey;
+}
+
+.deal-container h3 {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.price {
+    color: orangered;
+    margin: 15px 0px;
+    font-weight: 900;
+}
 
 
 
@@ -319,4 +365,15 @@ main {
         grid-column: span 1;
         width: 90%;
     }
+
+    .deal-container {
+        margin: 100px 30px 0px 30px;
+        padding: 20px;
+    }
+
+    .book-now-button {
+        width: 70%;
+        padding: 10px;
+    }
+
 }
