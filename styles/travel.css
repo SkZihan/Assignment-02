@@ -328,7 +328,49 @@ main {
     margin: 20px 25px;
 }
 
+/* Newsletter Section */
+.newsletter-container {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+    margin-bottom: 80px;
+}
 
+.newsletter {
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 40px 30px;
+}
+
+.newsletter h2 {
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.newsletter p {
+    font-size: 15px;
+    color: grey;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.newsletter input {
+    background-color: rgba(228, 228, 228, 0.418);
+    margin-bottom: 15px;
+    padding: 12px 10px;
+    width: 95%;
+    border-radius: 7px;
+    border: none;
+}
+
+.newsletter button {
+    width: 100%;
+}
+
+.newsletter-image img {
+    height: 100%;
+}
 
 
 /* Responsive Section */
@@ -420,6 +462,14 @@ main {
     }
 
     .promotion-image img {
+        width: 100%;
+    }
+
+    .newsletter-container {
+        flex-direction: column;
+    }
+
+    .newsletter-image img {
         width: 100%;
     }
 
