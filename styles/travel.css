@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    line-height: 1.4;
 }
 
 body {
@@ -146,6 +147,7 @@ main {
 
 .destination-title p {
     font-size: 15px;
+    padding: 0px 250px;
     color: grey;
     margin: 20px 0px;
 }
@@ -185,6 +187,7 @@ main {
 
 .why-us-title p {
     font-size: 15px;
+    padding: 0 250px;
     color: grey;
     margin: 20px 0px;
 }
@@ -196,7 +199,7 @@ main {
 }
 
 .facilities {
-    background-color: rgba(228, 195, 145, 0.26);
+    background-color: rgba(253, 247, 236, 0.678);
     border-radius: 10px;
     padding: 30px 20px;
 }
@@ -236,6 +239,7 @@ main {
 
 .deal-title p {
     font-size: 15px;
+    padding: 0 250px;
     color: grey;
     margin: 20px 0px;
 }
@@ -287,6 +291,7 @@ main {
 
 .deal-container p {
     font-size: 15px;
+    text-align: justify;
     color: grey;
 }
 
@@ -395,8 +400,14 @@ main {
 
 .footer p {
     font-size: 15px;
+    padding: 0 130px;
     color: grey;
     margin: 25px 0px;
+}
+
+.icon-container {
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(196, 196, 196);
 }
 
 /* .icon-container {
@@ -467,6 +478,10 @@ main {
         width: 100%;
     }
 
+    .destination-title p {
+        padding: 0 20px;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -478,6 +493,10 @@ main {
 
     .why-us {
         margin: 30px 0;
+    }
+
+    .why-us-title p {
+        padding: 0 20px;
     }
 
     .facility-container {
@@ -492,6 +511,10 @@ main {
     .deal-container {
         margin: 100px 30px 0px 30px;
         padding: 20px;
+    }
+
+    .deal-title p {
+        padding: 0 20px;
     }
 
     .book-now-button {
@@ -521,6 +544,10 @@ main {
 
     .footer {
         padding: 30px 20px 20px;
+    }
+
+    .footer p {
+        padding: 0 20px;
     }
 
 }
