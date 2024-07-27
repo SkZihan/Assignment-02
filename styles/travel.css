@@ -123,12 +123,14 @@ main {
 .tours-description p {
     font-size: 1rem;
     color: grey;
+    text-align: justify;
     margin: 25px 0px;
 }
 
 .tours-description ul>li {
     font-size: 1rem;
     color: grey;
+    text-align: justify;
     margin: 20px 25px;
 }
 
@@ -210,6 +212,7 @@ main {
 .facilities p {
     font-size: 1rem;
     color: grey;
+    text-align: justify;
     margin: 20px 0px;
 }
 
@@ -325,11 +328,14 @@ main {
 .promotion-description p {
     font-size: 1rem;
     color: grey;
+    text-align: justify;
     margin: 20px 0px;
 }
 
 .promotion-description ul>li {
     font-size: 1rem;
+    color: grey;
+    text-align: justify;
     margin: 20px 25px;
 }
 
