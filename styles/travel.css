@@ -75,6 +75,7 @@ main {
 
 .banner-description {
     color: white;
+    padding: 0 60px;
     font-size: 1rem;
     margin: 20px 0px;
 }
@@ -114,22 +115,19 @@ main {
     margin: 80px 0;
 }
 
-/* .tours-description {
-    margin-right: 60px;
-} */
 
 .tours-description h1 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .tours-description p {
-    font-size: 15px;
+    font-size: 1rem;
     color: grey;
     margin: 25px 0px;
 }
 
 .tours-description ul>li {
-    font-size: 15px;
+    font-size: 1rem;
     color: grey;
     margin: 20px 25px;
 }
@@ -142,11 +140,11 @@ main {
 }
 
 .destination-title h1 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .destination-title p {
-    font-size: 15px;
+    font-size: 1rem;
     padding: 0px 250px;
     color: grey;
     margin: 20px 0px;
@@ -182,11 +180,11 @@ main {
 }
 
 .why-us-title h1 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .why-us-title p {
-    font-size: 15px;
+    font-size: 1rem;
     padding: 0 250px;
     color: grey;
     margin: 20px 0px;
@@ -210,7 +208,7 @@ main {
 }
 
 .facilities p {
-    font-size: 15px;
+    font-size: 1rem;
     color: grey;
     margin: 20px 0px;
 }
@@ -234,11 +232,11 @@ main {
 }
 
 .deal-title h1 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .deal-title p {
-    font-size: 15px;
+    font-size: 1rem;
     padding: 0 250px;
     color: grey;
     margin: 20px 0px;
@@ -290,14 +288,15 @@ main {
 }
 
 .deal-container p {
-    font-size: 15px;
+    font-size: 1rem;
     text-align: justify;
     color: grey;
+    margin: 20px 0px;
 }
 
 .deal-container h3 {
-    margin: 20px 0px;
-    font-size: 20px;
+    font-size: 1.4rem;
+    margin: 10px 0px;
 }
 
 .price {
@@ -319,17 +318,18 @@ main {
 }
 
 .promotion-description h1 {
-    font-size: 30px;
+    font-size: 2rem;
+    margin-bottom: 10px;
 }
 
 .promotion-description p {
-    font-size: 15px;
+    font-size: 1rem;
     color: grey;
-    margin: 25px 0px;
+    margin: 20px 0px;
 }
 
 .promotion-description ul>li {
-    font-size: 15px;
+    font-size: 1rem;
     margin: 20px 25px;
 }
 
@@ -347,12 +347,12 @@ main {
 }
 
 .newsletter h2 {
-    margin: 20px 0px;
-    font-size: 20px;
+    margin: 10px 0px;
+    font-size: 1.4rem;
 }
 
 .newsletter p {
-    font-size: 15px;
+    font-size: 1rem;
     color: grey;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -399,7 +399,7 @@ main {
 
 
 .footer p {
-    font-size: 15px;
+    font-size: 1rem;
     padding: 0 130px;
     color: grey;
     margin: 25px 0px;
@@ -426,10 +426,16 @@ main {
     }
 
     .nav-container {
-        padding: 40px 0px 20px;
+        padding: 30px 0px;
     }
 
-    .heading h2 {
+    .heading h2,
+    .banner-title,
+    .tours-description h1,
+    .destination-title h1,
+    .why-us-title h1,
+    .deal-title h1,
+    .promotion-description h1 {
         font-size: 1.5rem;
     }
 
@@ -438,6 +444,7 @@ main {
         margin-right: 10px;
     }
 
+    /* Work Remained */
     .navigation {
         display: none;
     }
@@ -447,8 +454,13 @@ main {
         padding: 30px 20px;
     }
 
-    .banner-title {
-        font-size: 2rem;
+    /* .banner-title {
+        font-size: 1.5rem;
+    } */
+
+    .banner-description {
+        font-size: 0.8rem;
+        padding: 0 20px;
     }
 
     .banner-input {
@@ -470,15 +482,32 @@ main {
 
     .tours {
         flex-direction: column;
-        margin: 30px 0px;
+        margin: 40px 0px;
         gap: 20px;
+    }
+
+    .tours-description p,
+    .tours-description ul>li,
+    .promotion-description ul>li {
+        font-size: 0.8rem;
+        margin: 15px 0px;
+    }
+
+    .tours-description ul>li,
+    .promotion-description ul>li {
+        margin-left: 25px;
+        margin-right: 5px;
     }
 
     .tour-image img {
         width: 100%;
     }
 
-    .destination-title p {
+    .destination-title p,
+    .why-us-title p,
+    .deal-title p,
+    .footer p {
+        font-size: 0.8rem;
         padding: 0 20px;
     }
 
@@ -495,12 +524,24 @@ main {
         margin: 30px 0;
     }
 
-    .why-us-title p {
-        padding: 0 20px;
+    .why-us-title,
+    .deal-title {
+        margin-bottom: 20px;
     }
+
+    /* .why-us-title p {
+        padding: 0 20px;
+    } */
 
     .facility-container {
         grid-template-columns: 1fr;
+    }
+
+    .facilities p,
+    .deal-container p,
+    .promotion-description p {
+        font-size: 0.8rem;
+        margin: 0;
     }
 
     .f3 {
@@ -513,9 +554,9 @@ main {
         padding: 20px;
     }
 
-    .deal-title p {
+    /* .deal-title p {
         padding: 0 20px;
-    }
+    } */
 
     .book-now-button {
         width: 70%;
@@ -537,6 +578,10 @@ main {
         margin-bottom: 30px;
     }
 
+    .newsletter p {
+        font-size: 0.8rem;
+    }
+
     .newsletter-image img {
         width: 100%;
         height: 400px;
@@ -546,8 +591,9 @@ main {
         padding: 30px 20px 20px;
     }
 
-    .footer p {
+    /* .footer p {
         padding: 0 20px;
-    }
+        font-size: 0.8rem;
+    } */
 
 }
