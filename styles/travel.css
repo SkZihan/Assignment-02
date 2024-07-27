@@ -454,13 +454,14 @@ main {
         padding: 30px 20px;
     }
 
-    /* .banner-title {
-        font-size: 1.5rem;
-    } */
-
-    .banner-description {
+    .banner-description,
+    .destination-title p,
+    .why-us-title p,
+    .deal-title p,
+    .footer p {
         font-size: 0.8rem;
         padding: 0 20px;
+        margin: 10px 0px;
     }
 
     .banner-input {
@@ -503,14 +504,6 @@ main {
         width: 100%;
     }
 
-    .destination-title p,
-    .why-us-title p,
-    .deal-title p,
-    .footer p {
-        font-size: 0.8rem;
-        padding: 0 20px;
-    }
-
     .row {
         flex-direction: column;
     }
@@ -528,10 +521,6 @@ main {
     .deal-title {
         margin-bottom: 20px;
     }
-
-    /* .why-us-title p {
-        padding: 0 20px;
-    } */
 
     .facility-container {
         grid-template-columns: 1fr;
@@ -553,10 +542,6 @@ main {
         margin: 100px 30px 0px 30px;
         padding: 20px;
     }
-
-    /* .deal-title p {
-        padding: 0 20px;
-    } */
 
     .book-now-button {
         width: 70%;
@@ -590,10 +575,4 @@ main {
     .footer {
         padding: 30px 20px 20px;
     }
-
-    /* .footer p {
-        padding: 0 20px;
-        font-size: 0.8rem;
-    } */
-
 }
