@@ -459,7 +459,7 @@ main {
     .why-us-title p,
     .deal-title p,
     .footer p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         padding: 0 20px;
         margin: 10px 0px;
     }
@@ -490,7 +490,7 @@ main {
     .tours-description p,
     .tours-description ul>li,
     .promotion-description ul>li {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin: 15px 0px;
     }
 
@@ -529,7 +529,7 @@ main {
     .facilities p,
     .deal-container p,
     .promotion-description p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin: 0;
     }
 
@@ -564,7 +564,7 @@ main {
     }
 
     .newsletter p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .newsletter-image img {
