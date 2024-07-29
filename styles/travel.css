@@ -167,7 +167,8 @@ main {
     position: absolute;
     color: white;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Why-us Section */
@@ -195,13 +196,17 @@ main {
 .facility-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 30px;
 }
 
 .facilities {
     background-color: rgba(253, 247, 236, 0.678);
     border-radius: 10px;
     padding: 30px 20px;
+}
+
+.facilities img {
+    width: 20%;
 }
 
 .facilities h4 {
@@ -341,8 +346,9 @@ main {
 
 /* Newsletter Section */
 .newsletter-container {
-    display: flex;
-    gap: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 20px;
     margin-bottom: 80px;
 }
 
@@ -378,15 +384,32 @@ main {
     width: 100%;
 }
 
+.newsletter-image {
+    position: relative;
+}
+
 .newsletter-image img {
     height: 100%;
+}
+
+.discount {
+    position: absolute;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px 40px;
+    border-radius: 10px;
+    right: 8px;
+    bottom: 47px;
+    rotate: -20deg;
 }
 
 /* Footer Section */
 
 .footer {
     background-color: rgba(231, 231, 231, 0.473);
-    padding: 150px 250px;
+    padding: 80px 250px 40px;
     text-align: center;
 }
 
@@ -406,20 +429,22 @@ main {
 
 .footer p {
     font-size: 1rem;
-    padding: 0 130px;
+    padding: 0px 130px;
     color: grey;
     margin: 25px 0px;
 }
 
 .icon-container {
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     border-bottom: 1px solid rgb(196, 196, 196);
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
 
-/* .icon-container {
-    border-bottom: 1px solid gainsboro;
-    color: black;
-} */
+.icon-container i {
+    padding-right: 30px;
+    font-size: 20px;
+}
 
 
 
@@ -530,6 +555,7 @@ main {
 
     .facility-container {
         grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .facilities p,
@@ -565,7 +591,7 @@ main {
     }
 
     .newsletter-container {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         margin-bottom: 30px;
     }
 
@@ -575,10 +601,15 @@ main {
 
     .newsletter-image img {
         width: 100%;
-        height: 400px;
+        height: 350px;
     }
 
     .footer {
-        padding: 30px 20px 20px;
+        padding: 40px 20px 30px;
+    }
+
+    .icon-container {
+        padding-bottom: 20px;
+        margin: 20px 0px;
     }
 }
