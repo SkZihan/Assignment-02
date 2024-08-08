@@ -84,13 +84,17 @@ main {
 }
 
 .banner-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px;
+    gap: 10px;
     background-color: rgba(228, 228, 228, 0.418);
-    margin: 50px 0px;
+    margin: 40px 0px;
+    padding: 10px 20px;
     border-radius: 7px;
 }
 
 .banner-input input {
-    margin-right: 14px;
     padding: 12px 10px;
     border-radius: 7px;
     border: none;
@@ -101,7 +105,7 @@ main {
     color: white;
     font-weight: 800;
     background-color: rgb(250, 103, 50);
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
     padding: 10px 35px;
     border-radius: 7px;
     border: none;
@@ -582,11 +586,12 @@ main {
     }
 
     .banner-input {
+        grid-template-columns: 1fr;
         margin: 30px 10px;
-        padding: 5px 15px;
+        padding: 15px;
     }
 
-    .banner-input input {
+    /* .banner-input input {
         width: 92%;
         margin-top: 15px;
     }
@@ -594,7 +599,7 @@ main {
     .banner-input button {
         margin-top: 15px;
         width: 100%;
-    }
+    } */
 
 
 
